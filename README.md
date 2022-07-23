@@ -6,4 +6,4 @@ Está pasta contém anotações de estudos, conceitos básicos e links important
 Está pasta contém anotações de estudos, conceitos básicos e links importantes.
 
 #### **Novas pastas serão adicionadas ao decorrer do bootcamp, bem como melhorias de organização do repositório conforme necessidade**
-
+#### **Acessar a branch master para acesso aos arquivos**
