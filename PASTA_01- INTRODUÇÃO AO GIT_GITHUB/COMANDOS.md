@@ -29,6 +29,7 @@
 - git remote add origin "endereço URL" --> APONTA PARA QUAL REPOSITÓRIO VAI SUBIR. ORIGIN É O APELIDO PARA O ENDEREÇO URL.
 - git remote -v --> LISTA DE REPOSITÓRIOS REMOTOS QUE TENHO CADASTRADO.
 - git push origin master --> ENVIA O REPOSITÓRIO AO GIT HUB
+- git clone URL--> CLONA  REPOSITÓRIO PARA A MÁQUINA
 
 # EXPLICAÇÃO 
 
