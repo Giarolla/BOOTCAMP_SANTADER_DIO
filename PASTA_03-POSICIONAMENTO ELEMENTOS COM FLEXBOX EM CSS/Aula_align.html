@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Align</title>
+</head>
+<style>
+    .container{
+        max-width: 350px;
+        border: 2px solid black;
+        display: flex;
+    }
+    .item{
+        background-color: blueviolet;
+        margin: 5px;
+        color:white;
+        text-align: center;
+        flex: 1;
+    }
+    .center{
+        align-items: center;
+    }
+    .stre{
+        align-items: stretch;
+    }
+    .flex_start{
+        align-items: flex-start;
+    }
+    .end{
+        align-items: flex-end;
+    }
+    .baseline{
+        align-items: baseline;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .central{
+        height: 300px;
+        justify-content: center;
+    }
+    .central .item {
+        flex: 0;
+        padding: 20px;
+    }
+</style>
+<body>
+    <h1>ROW</h1>
+    <p>CENTER</p>
+    <section class="container center ">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaaufdfdfdfdfdfdfdfdsfdfdsfdsfhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>STRETCH</p>
+    <section class="container center stre ">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhaha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>FLEX START</p>
+    <section class="container  flex_start ">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>FLEX END</p>
+    <section class="container  end ">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>BASELINE</p>
+    <section class="container  baseline ">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <h1>COLUMN</h1>
+    <p>CENTER</p>
+    <section class="container center column">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>STRETCH</p>
+    <section class="container center stre column">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>FLEX START</p>
+    <section class="container  flex_start column">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>FLEX END</p>
+    <section class="container  end column">
+        <div class="item">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>BASELINE</p>
+    <section class="container  baseline column">
+        <div class="item column">Item 1</div>
+        <div class="item">AHuahakiaaauhauha</div>
+        <div class="item">Item 3</div>
+    </section>
+    <p>ALINHAMENTO DE TELAS</p>
+    <section class="container central center">
+        <div class="item">Item ahauhauahuahauhauahuahauhauahau 
+        </div>
+    </section>
+</body>
+</html>
